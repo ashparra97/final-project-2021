@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Models for Earthquake Prediction</title>
+  
+  <link rel="stylesheet" href="static/bootstrap.min-2.css">
+  
+</head>
+
+<div class='container'>
+<body>
+    <div class="jumbotron">
+        <center><h1 class="display-3">Models for Earthquake Prediction</h1></center>
+    </div>
+    <hr class="my-4">
+    <div class="w3-display-container">
+      <center><h3>Machine Learning for the Prediction of Magnitude, Depth and Type of Seismic Movement</h3></center>
+      <center><img src="static/images/shefali-lincoln-yNFVWsQicdg-unsplash.jpg" alt="cracked_earth", style="width:100%;max-width:400px"></center>
+      <center><p>Photo by Shefali Lincoln on Unsplash</p></center>
+      
+    </div>
+    <hr class="my-4">
+    
+</div>
+      
+<div class='container'>
+  <div class="card mb-3">
+    <h3 class="card-header">Models Used</h3>
+    <div class="card-body">
+      <h5 class="card-title">Random Tree Forest Regressor</h5>
+      <h6 class="card-subtitle text-muted">Small Tree Example with Earthquake Data Fed to Model for Magnitude Prediction</h6>
+    </div>
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="200" aria-label="Placeholder: Image cap" focusable="false" role="img" preserveAspectRatio="xMidYMid slice" viewBox="0 0 318 180" style="font-size:1.125rem;text-anchor:middle">
+      <rect width="100%" height="100%" fill="#868e96">
+      </rect>
+      <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
+    </svg> -->
+    <center><img src="static/images/small_tree_mag.png" alt="mag_tree", style="width:100%;max-width:900px"></center>
+    <div class="card-body">
+      <p class="card-text">Actual model run had 42 estimators and resulted in model score of 0.867 and an MSE of 0.069</p>
+      
+    
+    <hr class="my-4">
+    <h6 class="card-subtitle text-muted">Small Tree Example with Earthquake Data Fed to Model for Magnitude Depth</h6>
+    </div>
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="200" aria-label="Placeholder: Image cap" focusable="false" role="img" preserveAspectRatio="xMidYMid slice" viewBox="0 0 318 180" style="font-size:1.125rem;text-anchor:middle">
+      <rect width="100%" height="100%" fill="#868e96">
+      </rect>
+      <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
+    </svg> -->
+  
+    <center><img src="static/images/small_tree_depth.png" alt="deoth_tree", style="width:100%;max-width:900px"></center>
+  
+    <div class="card-body">
+      <p class="card-text">Actual model run had 35 estimators and resulted in model score of 0.816 and an MSE of 18.80</p>
+    </div>
+    <hr class="my-4">
+    <div class="card-body">
+    <h5 class="card-title">KNN Classifier for Type of Seismic Movement (Earthquake or other type)</h5>
+      <h6 class="card-subtitle text-muted">K neighbors vs Testing Accuracy Scores</h6>
+    </div>
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="200" aria-label="Placeholder: Image cap" focusable="false" role="img" preserveAspectRatio="xMidYMid slice" viewBox="0 0 318 180" style="font-size:1.125rem;text-anchor:middle">
+      <rect width="100%" height="100%" fill="#868e96">
+      </rect>
+      <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
+    </svg> -->
+    <center><img src="static/images/kvalue_vs_accuracy.png" alt="knn", style="width:100%;max-width:600px"></center>
+    <div class="card-body">
+      <p class="card-text">Model used k = 13 and had an accuracy of 0.989</p>
+      
+    
+    
+    </div>
+    
+    </div>
+  </div>
+  
+
+
+
+
+
+
+
+
+
+
+
+  <!-- <hr class="my-4"> -->
+        <!-- <div class='tableauPlaceholder' id='viz1629997267128' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ci&#47;citibike_homeworkRRG&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='citibike_homeworkRRG&#47;Dashboard1' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ci&#47;citibike_homeworkRRG&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1629997267128');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='1654px';vizElement.style.maxWidth='100%';vizElement.style.minHeight='1219px';vizElement.style.maxHeight=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.minWidth='1654px';vizElement.style.maxWidth='100%';vizElement.style.minHeight='1219px';vizElement.style.maxHeight=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.minWidth='1654px';vizElement.style.maxWidth='100%';vizElement.style.minHeight='2000px';vizElement.style.maxHeight=(divElement.offsetWidth*1.77)+'px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script> -->
+    </div>
+  </div>
+  </div>
+    
+     
+    <div class='container'>
+        <h3>Tableau Visualizations</h3>
+        <!-- <p class="lead">Were there changes in bike rental behavior in the month of April for the years 2018, 2019 and 2020? The purpose of using this specific month was to try and visualize the effect the pandemic could have had in the rental habits in NY.</p> -->
+        <hr class="my-4">
+        <!-- <div class='tableauPlaceholder' id='viz1629997267128' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ci&#47;citibike_homeworkRRG&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='citibike_homeworkRRG&#47;Dashboard1' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ci&#47;citibike_homeworkRRG&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1629997267128');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='1654px';vizElement.style.maxWidth='100%';vizElement.style.minHeight='1219px';vizElement.style.maxHeight=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.minWidth='1654px';vizElement.style.maxWidth='100%';vizElement.style.minHeight='1219px';vizElement.style.maxHeight=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.minWidth='1654px';vizElement.style.maxWidth='100%';vizElement.style.minHeight='2000px';vizElement.style.maxHeight=(divElement.offsetWidth*1.77)+'px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script> -->
+    </div>
+  </div>
+  </div>
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item active">Ashley Parra, Jason Wang, Kellen Quinn, Kimberly Norman and Rosaicela Roman</li>
+    <li class="breadcrumb-item active">August 2021</li>
+  </ol>
+</body>
+</div>
+
+
+</html>
