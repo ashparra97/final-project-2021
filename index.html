@@ -13,7 +13,41 @@
 
 <div class='container'>
 <body>
+<div id='navbar' class='container'>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Earthquake Prediction</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Info Models
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#random-tree">Random Tree Regressor</a></li>
+                <li><a class="dropdown-item" href="#knn">KNN Classifiers</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="" target="_blank">Tableau Visualizations</a>
+            </li>  
+        </div>
+      </div>
+    </nav>
+  </nav>
+
+
+
+</div>
+
+
+
     <div class="jumbotron">
+      <hr class="my-4">
         <center><h1 class="display-3">Models for Earthquake Prediction</h1></center>
     </div>
     <hr class="my-4">
@@ -27,10 +61,10 @@
     
 </div>
       
-<div class='container'>
+<div id='models-used' class='container'>
   <div class="card mb-3">
     <h3 class="card-header">Models Used</h3>
-    <div class="card-body">
+    <div id="random-tree" class="card-body">
       <h5 class="card-title">Random Tree Forest Regressor</h5>
       <h6 class="card-subtitle text-muted">Small Tree Example with Earthquake Data Fed to Model for Magnitude Prediction</h6>
     </div>
@@ -59,7 +93,7 @@
       <p class="card-text">Actual model run had 35 estimators and resulted in model score of 0.816 and an MSE of 18.80</p>
     </div>
     <hr class="my-4">
-    <div class="card-body">
+    <div id="knn" class="card-body">
     <h5 class="card-title">KNN Classifier for Type of Seismic Movement (Earthquake or other type)</h5>
       <h6 class="card-subtitle text-muted">K neighbors vs Testing Accuracy Scores</h6>
     </div>
