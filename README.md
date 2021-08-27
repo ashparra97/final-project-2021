@@ -9,10 +9,10 @@ Earthquake threat is real, and it affects millions of people everyday. Along wit
 Instead of gathering data ourselves (very counterproductive), we will be using the data collected by USGS in the following formats:
 
     * Earthquake data from USGS:
-        ** https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.geojson
+        * https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.geojson
     * Earthquake data download from USGS
-        ** https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.csv
+        * https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.csv
     *  Documentation 
-        ** https://earthquake.usgs.gov/earthquakes/feed/v1.0/csv.php
+        * https://earthquake.usgs.gov/earthquakes/feed/v1.0/csv.php
 
  
