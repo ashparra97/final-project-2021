@@ -33,10 +33,9 @@ KNN predictions.
 
 Random Forest training and testing for magnitude.
 
-![random_forest_mag_codes](https://user-images.githubusercontent.com/36454639/131228382-0ed70d34-53ad-4f3f-8ae2-c4dd2785f42d.PNG)
+![random_forest_mag_closeup](https://user-images.githubusercontent.com/36454639/131228597-ac9dc8f9-1682-456b-b9ff-fef4cfa6b756.png)
 
 Random Forest training and testing for depth.
 
-![random_forest_depth_codes](https://user-images.githubusercontent.com/36454639/131228390-d2b2ec48-f901-45f3-8d73-010f0474ccc4.PNG)
-
+![random_forest_depth_closeup](https://user-images.githubusercontent.com/36454639/131228602-d7b39df1-1835-4d23-a00b-69354cec5e2b.png)
  
