@@ -3,7 +3,7 @@
 
 ## Summary
 
-We wanted to help build a model that predicts the magnitude and depth of the next earthquake. We used AWS in conjunction with the PostgreSQL database for data hosting to hold our original, cleaned, and generated dataset. Using machine learning (KNN and Random Forest), we modeled the datasets, which gave us a good look at predicted results that we visualized with Tableau. For presentation, we created a simple webpage that held the screenshots of our codes and the embedded Tableau snippets. 
+We wanted to build a model that predicts the magnitude and depth of the next earthquake. We used AWS in conjunction with the PostgreSQL database for data hosting to hold our original, cleaned, and generated dataset. Using machine learning (KNN and Random Forest), we modeled the datasets, which gave us a good look at predicted results that we visualized with Tableau. For our presentation, we created a simple webpage that holds screenshots of our codes and the embedded Tableau snippets. 
 
 ## Data Sources
 Instead of gathering data ourselves (very counterproductive), we will be using the data collected by USGS in the following formats:
@@ -23,7 +23,7 @@ Instead of gathering data ourselves (very counterproductive), we will be using t
 
 ## Screenshots
 
-KNN training and testing on the datasaet.
+KNN training and testing on the dataset.
 
 ![train_test_knn](https://user-images.githubusercontent.com/36454639/131228322-4c06079b-e714-42e6-a9d0-50d289388646.JPG)
 
