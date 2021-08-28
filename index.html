@@ -69,7 +69,7 @@
       <div class='card-body'>
       <h6 class="card-subtitle text-muted">Code Model for Magnitude Prediction</h6>
     </div>
-      <center><img src="static/images/random_forest_mag_codes.PNG" alt="mag_tree", style="width:100%;max-width:1000px"></center>
+      <center><img src="static/images/random_forest_mag_closeup.png" alt="mag_tree", style="width:100%;max-width:900px"></center>
     </div>
     <div class="card-body">
       <h6 class="card-subtitle text-muted">Small Tree Example with Earthquake Data Fed to Model for Magnitude Prediction</h6>
@@ -78,25 +78,38 @@
     <div class="card-body">
       <p class="card-text">Actual model run had 42 estimators and resulted in model score of 0.867 and an MSE of 0.069</p>
     </div>
-    
-    <div class="card-body">
-    <h6 class="card-subtitle text-muted">Small Tree Example with Earthquake Data Fed to Model for Magnitude Depth</h6>
+    <div class='card-body'>
+      <h6 class="card-subtitle text-muted">Code Model for Depth Prediction</h6>
     </div>
-    <center><img src="static/images/small_tree_depth.png" alt="deoth_tree", style="width:100%;max-width:900px"></center>
-  
+    <div class='card-body'>
+      <center><img src="static/images/random_forest_depth_closeup.png" alt="mag_tree", style="width:100%;max-width:900px"></center>
+    </div>
     <div class="card-body">
+    <h6 class="card-subtitle text-muted">Small Tree Example with Earthquake Data Fed to Model for Depth Prediction</h6>
+    <center><img src="static/images/small_tree_depth.png" alt="deoth_tree", style="width:100%;max-width:900px"></center>
+    </div>
+    <div class="card-body">
+      <div class="card-body">
       <p class="card-text">Actual model run had 35 estimators and resulted in model score of 0.816 and an MSE of 18.80</p>
     </div>
-    <hr class="my-4">
+    </div>
+
     <div id="knn" class="card-body">
     <h5 class="card-title">KNN Classifier for Type of Seismic Movement (Earthquake or other type)</h5>
+    </div>
+    <div class="card-body">
+    <h6 class="card-subtitle text-muted">Code for KNN Model</h6>
+  </div>
+  <center><img src="static/images/train_test_knn.JPG" alt="knn", style="width:100%;max-width:600px"></center>
+
+  <div class="card-body">
+    <p class="card-text">Model used k = 13 and had an accuracy of 0.989</p>
+    
+  </div>
+</div>
+<div class="card-body">
       <h6 class="card-subtitle text-muted">K neighbors vs Testing Accuracy Scores</h6>
     </div>
-    <!-- <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="200" aria-label="Placeholder: Image cap" focusable="false" role="img" preserveAspectRatio="xMidYMid slice" viewBox="0 0 318 180" style="font-size:1.125rem;text-anchor:middle">
-      <rect width="100%" height="100%" fill="#868e96">
-      </rect>
-      <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
-    </svg> -->
     <center><img src="static/images/kvalue_vs_accuracy.png" alt="knn", style="width:100%;max-width:600px"></center>
     <div class="card-body">
       <p class="card-text">Model used k = 13 and had an accuracy of 0.989</p>
@@ -104,7 +117,8 @@
     </div>
     
     </div>
-    <hr class="my-4">
+  </div>
+    <!-- <hr class="my-4"> -->
   </div>
 
   
