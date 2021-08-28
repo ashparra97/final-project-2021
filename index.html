@@ -96,6 +96,9 @@
       <div class='card-body'>
       <h6 class="card-subtitle text-muted">Code Model for Magnitude Prediction</h6>
     </div>
+    <div class='container'>
+      <p>Code used for Random Forest was based on the one found at https://www.kaggle.com/chenzecharya/earthquake-random-forest.</p>
+    </div>
       <center><img src="static/images/random_forest_mag_closeup.png" alt="mag_tree", style="width:100%;max-width:900px"></center>
     </div>
     <div class="card-body">
@@ -162,6 +165,19 @@
         <div id="knn" class="card-body">
         <center><div class='tableauPlaceholder' id='viz1630172124852' style='position: relative'><noscript><a href='#'><img alt='Global Earthquakes in the Last 30 Days ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;UP&#47;UPDATED_FinalProject2021&#47;Story1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='UPDATED_FinalProject2021&#47;Story1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;UP&#47;UPDATED_FinalProject2021&#47;Story1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1630172124852');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1016px';vizElement.style.height='991px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
         </center>
+      </div>
+      <hr class="my-4">
+      <div class='container'>
+        <h5>Visualization 3: Predicted Depth vs Actual Depth</h5>
+        <p>Predicted and actual earthquakes depths are visualized in this scatter plot with predicted depths on the Y-Axis and actual depths on the X-Axis. There is additionally a color scale of magnitudes with gold indicating the lowest depths and blue indicating the highest depths.
+        </p>
+        <h5>Visualization 4: Predicted Magnitude vs Actual Magnitude</h5>
+        <p>Predicted and actual earthquakes magnitudes are visualized in this scatter plot with predicted magnitudes on the Y-Axis and actual magnitudes on the X-Axis. There is additionally a color scale of magnitudes with orange indicating the lowest magnitudes and blue indicating the highest magnitudes.
+        </p>
+        <h5>Visualization 5: Actual vs. Predicted Earthquake Data</h5>
+        <p>Actual earthquakes in the last 30 and predicted earthquakes (predictions resulting from a Random Forest ML model) were mapped using latitude and longitude in Tableau Public. The top chart reflects actual earthquake locations including depth and magnitude, while the bottom chart reflects predicted earthquake locations including depth and magnitude obtained from the Random Forest model. Differences in color indicate difference in recorded depth, red being the least deep and blue being the deepest. Differences in size of the mapped points indicate differences in magnitude, with larger points having larger recorded/predicated magnitudes.
+        </p>
+        
       </div>
       <center><div class='tableauPlaceholder' id='viz1630178086492' style='position: relative'><noscript><a href='#'><img alt='Actual vs Predicated Earthquake Data ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;RZ&#47;RZ67KDWB2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;RZ67KDWB2' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;RZ&#47;RZ67KDWB2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1630178086492');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1016px';vizElement.style.height='991px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
       </center>
