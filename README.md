@@ -17,7 +17,7 @@ Instead of gathering data ourselves (very counterproductive), we will be using t
 
 ## Methods
 
-Data ETL - We used Excel, Python, and Pandas to conduct our initial clean up and transformation. We then loaded onto our data server with SQLAlchemy.
-Data Modeling - We used both KNN and Random Forest as our machine learning libraries to model our datasets and generate prediction outputs.
-Data Visualization - We used Tableau as our visualization tool to generate all our graphs and charts.
+- Data ETL - We used Excel, Python, and Pandas to conduct our initial clean up and transformation. We then loaded onto our data server with SQLAlchemy.
+- Data Modeling - We used both KNN and Random Forest as our machine learning libraries to model our datasets and generate prediction outputs.
+- Data Visualization - We used Tableau as our visualization tool to generate all our graphs and charts.
  
