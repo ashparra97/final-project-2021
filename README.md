@@ -1,5 +1,6 @@
 # Final Project - Earthquake Prediction
 ### By Ashley, Jason, Kellen, Kimberly, Rosa
+### [Link to Project Proposal](https://docs.google.com/document/d/1Nt-aJl_EfmWYkahmt6LclemSTxTMJU65x4puOA2B76o/edit?usp=sharing)
 
 ## Summary
 
