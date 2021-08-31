@@ -5,7 +5,11 @@
 ## Summary
 
 We wanted to build a model that would predict the magnitude and depth of the next earthquake. We used AWS in conjunction with the PostgreSQL database for data hosting to hold our original, cleaned, and generated dataset. Using machine learning (KNN and Random Forest), we modeled the datasets, which gave us a good look at predicted results that we visualized with Tableau. For our presentation, we created a simple webpage that holds screenshots of our codes and the embedded Tableau snippets. 
+## Project Links
 
+[GitHub pages](https://ashparra97.github.io/final-project-2021/)
+[Tableau 1](https://public.tableau.com/app/profile/ksquinn/viz/shared/QF7P352R2)
+[Tableau 2]
 ## Data Sources
 
 Instead of gathering data ourselves (very counterproductive), we will be using the data collected by USGS in the following formats:
