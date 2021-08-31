@@ -9,7 +9,7 @@ We wanted to build a model that would predict the magnitude and depth of the nex
 
 [GitHub pages](https://ashparra97.github.io/final-project-2021/)
 [Tableau 1](https://public.tableau.com/app/profile/ksquinn/viz/shared/QF7P352R2)
-[Tableau 2]
+[Tableau 2](https://public.tableau.com/app/profile/ashley.patricia.parra/viz/UPDATED_FinalProject2021/Story1?publish=yes)
 ## Data Sources
 
 Instead of gathering data ourselves (very counterproductive), we will be using the data collected by USGS in the following formats:
