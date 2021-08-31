@@ -28,6 +28,11 @@ Instead of gathering data ourselves (very counterproductive), we will be using t
 - Data Visualization - We used Tableau as our visualization tool to generate all our graphs and charts.
 
 ## Screenshots
+Database Tables
+
+![db_tables_1](https://user-images.githubusercontent.com/80008461/131426561-4a143849-bfe2-477d-8e63-f405d73b04a3.png)
+![db_tables_2](https://user-images.githubusercontent.com/80008461/131426567-110d3776-374c-411d-9bce-a846f5a310a1.png)
+
 
 KNN training and testing on the dataset.
 
